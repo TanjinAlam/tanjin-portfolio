@@ -64,10 +64,12 @@ export default function Navigation() {
 
         {/* Resume Button (Desktop) */}
         <a
-          href="mailto:piash.tanjin@gmail.com"
+          href="https://calendly.com/tanjin-alam/30min"
+          target="_blank"
+          rel="noopener noreferrer"
           className="hidden lg:inline-flex items-center gap-2 px-4 py-2 text-sm font-mono font-medium text-teal border border-teal/30 hover:bg-teal/5 hover:border-teal/60 transition-all duration-200"
         >
-          Get in Touch
+          Book a Call
         </a>
 
         {/* Mobile Toggle */}
@@ -104,10 +106,12 @@ export default function Navigation() {
               ))}
               <div className="pt-4 border-t border-border">
                 <a
-                  href="mailto:piash.tanjin@gmail.com"
+                  href="https://calendly.com/tanjin-alam/30min"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 px-4 py-2 text-sm font-mono font-medium text-teal border border-teal/30"
                 >
-                  Get in Touch
+                  Book a Call
                 </a>
               </div>
             </div>

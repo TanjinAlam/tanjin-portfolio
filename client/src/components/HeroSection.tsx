@@ -8,7 +8,7 @@
  */
 
 import { motion } from "framer-motion";
-import { MapPin, Mail, Github, Linkedin } from "lucide-react";
+import { MapPin, Mail, Github, Linkedin, Download } from "lucide-react";
 
 const HERO_BG = "https://private-us-east-1.manuscdn.com/sessionFile/XJx48TTXUMJySIZdZdyOIv/sandbox/NPWy8a7K59aUqDZLns3L6H-img-1_1770964359000_na1fn_aGVyby1ibHVlcHJpbnQ.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvWEp4NDhUVFhVTUp5U0laZFpkeU9Jdi9zYW5kYm94L05QV3k4YTdLNTlhVXFEWkxuczNMNkgtaW1nLTFfMTc3MDk2NDM1OTAwMF9uYTFmbl9hR1Z5YnkxaWJIVmxjSEpwYm5RLnBuZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=fzdUwgLGKiXlPKCIFaKeVSpq1zWHavf~7e8YD~7k71cyQIsCpVC-~XY8I8HbbvzLJBr-1KA7e~Y5-kX~4YXU30osKWcS67UCwLDmjUF0hNvO0uSqXiukGwJZVX2hbjKR4fK6pdSiwSUmunPZBmDexHFthrw8b0EVyQ4AjvGAIlDyKTk3G7oE1OmslR4t5ta~E~I4PPnxYjhU33WIIiKW316BLqt3BHjyNoB5G~fb9jeLmvKEey~7478OAhOHVYUHrjKKzigaxE~zJcCZDZ0eJX-ySs~YFfIrtt39U4L2JUc9MoiXzwYytGmvEaOLR2~AL80XbjItTjkz3A-qYvdoLQ__";
 
@@ -100,6 +100,23 @@ export default function HeroSection() {
                 <MapPin size={14} className="text-teal" />
                 <span className="font-mono text-xs">Uttara, Dhaka</span>
               </span>
+            </motion.div>
+
+            {/* Resume Download Button */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.6 }}
+              className="mt-8"
+            >
+              <a
+                href={`${import.meta.env.BASE_URL}assets/my_resume.pdf`}
+                download="Tanjin_Alam_Resume.pdf"
+                className="inline-flex items-center gap-3 px-6 py-3 font-mono text-sm tracking-wider text-linen bg-navy hover:bg-navy-light transition-colors uppercase"
+              >
+                <Download size={16} />
+                Download Resume
+              </a>
             </motion.div>
           </div>
 
