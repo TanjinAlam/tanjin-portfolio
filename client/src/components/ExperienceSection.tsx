@@ -53,7 +53,7 @@ const experiences = [
     company: "Hyperledger Foundation",
     role: "Blockchain Researcher — Linux Foundation",
     location: "San Francisco, CA (Remote)",
-    period: "July 2023 – Present",
+    period: "July 2023 – Dec 2025",
     current: true,
     responsibilities: [
       "Mentoring participants in the Hyperledger mentorship program.",

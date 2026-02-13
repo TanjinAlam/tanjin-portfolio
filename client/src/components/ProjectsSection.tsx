@@ -44,7 +44,7 @@ const projects = [
     tech: ["Airflow", "Python", "FastAPI", "Socket", "DBT", "MongoDB", "Docker", "Pandas"],
     overview: "A cutting-edge platform for in-depth analysis and optimization of hedge fund operations, empowering financial professionals with comprehensive tools for strategic decision-making.",
     featured: false,
-    image: DATA_PIPELINE_IMG,
+    image: null
   },
   {
     name: "Anchorbooks",
@@ -54,7 +54,7 @@ const projects = [
     tech: ["Hyperledger Fabric", "NestJs", "PostgreSQL", "ExpressJs"],
     overview: "Revolutionizes accounting with Magic Bookkeeping powered by AI for seamless invoice and expense creation. Integrated with WhatsApp for easy accessibility.",
     featured: false,
-    image: BLOCKCHAIN_IMG,
+    image: null,
   },
   {
     name: "MFS Monitoring Dashboard",

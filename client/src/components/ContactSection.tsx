@@ -9,7 +9,7 @@ import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import SectionHeading from "./SectionHeading";
 import EducationSection from "./EducationSection";
-import { Mail, Phone, MapPin, Github, Linkedin, ExternalLink } from "lucide-react";
+import { Mail, Phone, MapPin, Github, Linkedin, ExternalLink, Calendar } from "lucide-react";
 
 const socialLinks = [
   { icon: Mail, label: "piash.tanjin@gmail.com", href: "mailto:piash.tanjin@gmail.com" },
@@ -91,11 +91,13 @@ export default function ContactSection() {
               to design your system from the ground up — I'd love to hear from you.
             </p>
             <a
-              href="mailto:piash.tanjin@gmail.com"
+              href="https://calendly.com/tanjin-alam/30min"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center gap-3 px-6 py-3 font-mono text-sm tracking-wider text-linen bg-navy hover:bg-navy-light transition-colors uppercase w-fit"
             >
-              <Mail size={16} />
-              Send an Email
+              <Calendar size={16} />
+              Book a Meeting
             </a>
           </motion.div>
         </div>
