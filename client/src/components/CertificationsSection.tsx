@@ -20,6 +20,12 @@ const certifications = [
 const achievements = [
   {
     icon: Trophy,
+    title: "Kubestronaut",
+    description: "Kubestronaut – Kubernetes Community Achievement for earning all 5 Kubernetes certifications (KCNA, CKA, CKAD, KCSA, CKS)",
+    href: "https://www.credly.com/badges/8aebb79b-e1e0-4991-b5fa-af63473e04c3/public_url",
+  },
+  {
+    icon: Trophy,
     title: "Blockchain Olympiad Bangladesh 2023",
     description: "1st and 2nd Finalist — National-level recognition for competitive blockchain innovation (Anchorblock Crandor & Anchorblock Sigma)",
     href: "https://www.facebook.com/BCOLBD/posts/pfbid034tEQdeK8wKGnNfMQ5NiMJhfGTjDtpcJnSrdygrDup5d9Q4f2XMPuup2ZMnmUBr7Ml",
